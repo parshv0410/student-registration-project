@@ -21,7 +21,7 @@ app.use(session({
 
 // MongoDB Atlas Connection
 mongoose.connect(
-    "mongodb+srv://parshvpatel30_db_user:Parshv@4356@cluster0.9wz1eja.mongodb.net/studentDB?retryWrites=true&w=majority"
+   "mongodb+srv://parshvpatel30_db_user:Parshv%404356@cluster0.9wz1eja.mongodb.net/studentDB?retryWrites=true&w=majority&appName=Cluster0"
 )
 .then(() => {
     console.log("MongoDB Connected");
