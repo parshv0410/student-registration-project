@@ -19,7 +19,7 @@ app.use(session({
 }));
 
 
-mongoose.connect("mongodb://127.0.0.1:27017/studentDB");
+mongoose.connect("mongodb+srv://admin:admin123@cluster0.xxxx.mongodb.net/studentDB");
 
 
 const userSchema = new mongoose.Schema({
@@ -110,7 +110,7 @@ app.post("/login", async (req, res) => {
     res.redirect("/dashboard");
 
 });
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
 
     console.log("Server Started");
 
