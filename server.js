@@ -19,7 +19,7 @@ app.use(session({
 }));
 
 
-mongoose.connect("mongodb+srv://admin:admin123@cluster0.xxxx.mongodb.net/studentDB");
+mongoose.connect("mongodb+srv://parshvpatel30_db_user:<db_password>@cluster0.9wz1eja.mongodb.net/?appName=Cluster0");
 
 
 const userSchema = new mongoose.Schema({
