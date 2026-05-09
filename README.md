@@ -52,5 +52,5 @@ node server.js
 4. Open browser
 http://localhost:3000
 
-5. Live link
+5. Live Render link
 https://student-registration-project-8p09.onrender.com
